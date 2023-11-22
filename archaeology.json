@@ -1,0 +1,57 @@
+{
+	"name": "Archarology AFK",
+	"baseName": "progressbar",
+	"alerters": [
+		{ "triggerpercent": 100, "name": "Progress bar", "globalalarm": true, "alarm": null, "voice": null, "tooltip": "Done!", "exportbar": true, "type": "craftmenu" },
+		{ "delay": 270, "name": "Lobby timer", "globalalarm": true, "alarm": null, "voice": null, "tooltip": "About to get lobbied", "exportbar": true, "type": "inactive" },
+		{
+			"lines": [
+				{ "percent": 100, "text": "A Seren spirit appears" },
+				{ "percent": 100, "text": "A Seren spirit appears, interested in your actions" }
+			],
+			"colors": [[0, 255, 255]],
+			"resetonactive": true,
+			"name": "Seren spirit",
+			"globalalarm": false,
+			"alarm": null,
+			"voice": { "text": "seren spirit", "pitch": 50, "speed": 175 },
+			"tooltip": "Seren spirit",
+			"exportbar": true,
+			"type": "chat"
+		},
+		{
+			"lines": [
+				{ "percent": 100, "text": "The time sprite has moved to another location." },
+				{ "percent": 100, "text": "The time sprite has moved to another location" }
+			],
+			"colors": [
+				[255, 255, 255],
+				[127, 169, 255]
+			],
+			"resetonactive": true,
+			"name": "Time Sprite",
+			"globalalarm": false,
+			"alarm": null,
+			"voice": { "text": "Time Sprite", "pitch": 50, "speed": 175 },
+			"tooltip": "Time Sprite",
+			"exportbar": true,
+			"type": "chat"
+		},
+		{ "name": "artifact pop up", "globalalarm": false, "alarm": null, "voice": { "text": "Artifact", "pitch": 50, "speed": 175 }, "tooltip": "", "exportbar": true, "type": "dialogtextsimple" },
+		{
+			"lines": [{ "percent": 100, "text": "You don't have enough inventory space to do that" }],
+			"colors": [
+				[255, 255, 255],
+				[127, 169, 255]
+			],
+			"resetonactive": true,
+			"name": "full invent",
+			"globalalarm": false,
+			"alarm": null,
+			"voice": { "text": "full invent", "pitch": 50, "speed": 175 },
+			"tooltip": "",
+			"exportbar": true,
+			"type": "chat"
+		}
+	]
+}

@@ -1,0 +1,118 @@
+{
+	"alerters": [
+		{
+			"name": "Wandering Soul",
+			"globalalarm": true,
+			"alarm": null,
+			"voice": null,
+			"tooltip": "Soul",
+			"exportbar": true,
+			"resetonactive": true,
+			"lines": [{ "text": "A wandering soul has spawned on the ritual site", "percent": 100 }],
+			"colors": [
+				[255, 255, 255],
+				[127, 169, 255],
+				[0, 255, 0]
+			],
+			"type": "chat"
+		},
+		{
+			"name": "Corrupt Glyph",
+			"globalalarm": true,
+			"alarm": null,
+			"voice": null,
+			"tooltip": "Corrupt Glyph",
+			"exportbar": true,
+			"resetonactive": true,
+			"lines": [{ "text": "Some corrupt glyphs have appeared on the ritual site", "percent": 100 }],
+			"colors": [
+				[255, 255, 255],
+				[127, 169, 255],
+				[0, 255, 0]
+			],
+			"type": "chat"
+		},
+		{
+			"name": "Sparkling Glyph",
+			"globalalarm": true,
+			"alarm": null,
+			"voice": null,
+			"tooltip": "Sparkling Glyph",
+			"exportbar": true,
+			"resetonactive": true,
+			"lines": [{ "text": "A cloud of sparkles has taken over a glyph", "percent": 100 }],
+			"colors": [
+				[255, 255, 255],
+				[127, 169, 255],
+				[0, 255, 0]
+			],
+			"type": "chat"
+		},
+		{
+			"name": "Soul Storm",
+			"globalalarm": true,
+			"alarm": null,
+			"voice": null,
+			"tooltip": "Soul Storm",
+			"exportbar": true,
+			"resetonactive": true,
+			"lines": [{ "text": "A storm of souls has taken over a ritual component", "percent": 100 }],
+			"colors": [
+				[255, 255, 255],
+				[127, 169, 255],
+				[0, 255, 0]
+			],
+			"type": "chat"
+		},
+		{
+			"name": "Defile",
+			"globalalarm": true,
+			"alarm": null,
+			"voice": null,
+			"tooltip": "Defile",
+			"exportbar": true,
+			"resetonactive": true,
+			"lines": [{ "text": "A large pool of miasma has appeared on the ritual site", "percent": 100 }],
+			"colors": [
+				[255, 255, 255],
+				[127, 169, 255],
+				[0, 255, 0]
+			],
+			"type": "chat"
+		},
+		{
+			"name": "Shambling Horror",
+			"globalalarm": true,
+			"alarm": null,
+			"voice": null,
+			"tooltip": "Horror",
+			"exportbar": true,
+			"resetonactive": true,
+			"lines": [{ "text": "A shambling horror has spawned on the ritual site", "percent": 100 }],
+			"colors": [
+				[255, 255, 255],
+				[127, 169, 255],
+				[0, 255, 0]
+			],
+			"type": "chat"
+		},
+		{
+			"name": "Ritual Complete",
+			"globalalarm": true,
+			"alarm": null,
+			"voice": null,
+			"tooltip": "Ritual Complete",
+			"exportbar": true,
+			"resetonactive": true,
+			"lines": [{ "text": "You complete the ritual", "percent": 100 }],
+			"colors": [
+				[255, 255, 255],
+				[127, 169, 255],
+				[0, 255, 0]
+			],
+			"type": "chat"
+		}
+	],
+	"name": "rits",
+	"baseName": "xpdrops"
+}
